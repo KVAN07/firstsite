@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    box-sizing: border-box;
+}
+h2{
+    color: darkgray;
+    background: black;
+    padding: 10px 0;
+    text-align: center;
+}
+.block{
+    width: 900px;
+    height: 825px;
+    background-color: red;
+    margin: 25px auto;
+    border-radius: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-evenly;
+
+}
+.item{
+    width: 250px;
+    height: 250px;
+    border-radius: 7%;
+    background: url(https://pbs.twimg.com/profile_images/743303503179747328/ItNcegRR_400x400.jpg);
+    text-align: center; 
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+
+}

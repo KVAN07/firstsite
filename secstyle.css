@@ -1,0 +1,57 @@
+
+*{
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+.photo{
+    margin: 10px;
+}
+h2{
+    color: darkgray;
+    background: black;
+    padding: 10px 0;
+    text-align: center;
+   
+}
+iframe{
+    /* margin: 0 675px; */
+
+     /* width: 50%;  */
+    /* margin: 0 auto;  */
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35%; 
+}
+p{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    width: 35%;
+    height: 35%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 35px;
+    border-radius: 5% 5%;
+    border-color: #000000; /* Цвет границы */
+    border-style: solid; /* Стиль границы */
+    padding: 5px; /* Поля вокруг текста */
+}
+.video{
+    
+   width: 50%;
+   margin: 0 auto;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    margin-left: 25%;
+}
+.map{
+    /* width: 50%;   */
+    /* margin: 0 auto;   */
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35%;
+}
